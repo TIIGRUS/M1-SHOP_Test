@@ -1,0 +1,15 @@
+.page__title {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 25px;
+}
+
+.page__title:after {
+    content: '';
+    display: block;
+    width: 90px;
+    margin: 21px auto 0;
+    height: 3px;
+    background-color: #000000;
+}
