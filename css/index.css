@@ -1,11 +1,35 @@
 @import 'normalize.css';
 
+@import 'blocks/base/base.css';
+
 @import 'blocks/page/page.css';
 @import 'blocks/page/__container/page__container.css';
+@import 'blocks/page/__title/page__title.css';
+
 @import 'blocks/header/header.css';
 @import 'blocks/header/__logo/header__logo.css';
 @import 'blocks/header/__logo-img/header__logo-img.css';
+
 @import 'blocks/nav/__list/nav__list.css';
-@import 'blocks/nav/__item/nav__item.css';
 @import 'blocks/nav/__item-link/nav__item-link.css';
 
+@import 'blocks/promo/promo.css';
+@import 'blocks/promo/__container/promo__container.css';
+@import 'blocks/promo/__container/_bg/promo__container_bg.css';
+@import 'blocks/promo/__title/promo__title.css';
+@import 'blocks/promo/__discount-container/promo__discount-container.css';
+@import 'blocks/promo/__container-text/promo__container-text.css';
+@import 'blocks/promo/__title/_category/promo__title_category.css';
+@import 'blocks/promo/__title/_product/promo__title_product.css';
+@import 'blocks/promo/__title/_discount/promo__title_discount.css';
+@import 'blocks/promo/__discount/promo__discount.css';
+@import 'blocks/promo/__discount/_price/promo__discount_price.css';
+@import 'blocks/promo/__btn/promo__btn.css';
+
+@import 'blocks/btn/btn.css';
+@import 'blocks/btn/_outline-white/btn_outline-white.css';
+
+@import 'blocks/into/into.css';
+
+@import 'blocks/images-line/imagtes-line.css';
+@import 'blocks/images-line/__item/images-line__item.css';
