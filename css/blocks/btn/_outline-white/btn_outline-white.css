@@ -1,0 +1,10 @@
+.btn_outline-white {
+    border-color: white;
+    font-size: 16px;
+}
+
+.btn_outline-white:hover,
+.btn_outline-white:focus {
+    background-color: #fff;
+    color: #1e1e1e;
+}
