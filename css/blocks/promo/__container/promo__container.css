@@ -1,0 +1,7 @@
+.promo__container {
+    flex-basis: 960px;
+    padding: 50px 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

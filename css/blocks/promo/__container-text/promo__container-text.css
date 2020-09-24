@@ -1,0 +1,4 @@
+.promo__container-text {
+    width: calc(100% - 465px);
+    margin: 0 auto
+}
