@@ -1,3 +1,11 @@
 @import 'normalize.css';
+
+@import 'blocks/page/page.css';
+@import 'blocks/page/__container/page__container.css';
 @import 'blocks/header/header.css';
-@import 'blocks/container/container.css';
+@import 'blocks/header/__logo/header__logo.css';
+@import 'blocks/header/__logo-img/header__logo-img.css';
+@import 'blocks/nav/__list/nav__list.css';
+@import 'blocks/nav/__item/nav__item.css';
+@import 'blocks/nav/__item-link/nav__item-link.css';
+

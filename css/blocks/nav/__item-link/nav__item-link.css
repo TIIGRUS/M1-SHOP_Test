@@ -1,0 +1,11 @@
+.nav__item-link {
+    line-height: 20px;
+    color: #1e1e1e;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 16px;
+}
+
+.nav__item-link:hover {
+    text-decoration: underline;
+}
