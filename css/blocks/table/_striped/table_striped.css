@@ -1,0 +1,3 @@
+.table_striped .table__body .table__tr:nth-of-type(odd) {
+    background-color: #f3f3f3;
+}

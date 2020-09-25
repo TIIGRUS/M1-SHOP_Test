@@ -33,3 +33,14 @@
 
 @import 'blocks/images-line/imagtes-line.css';
 @import 'blocks/images-line/__item/images-line__item.css';
+
+@import 'blocks/sizes/sizes.css';
+@import 'blocks/sizes/__table-container/sizes__table-container.css';
+
+
+@import 'blocks/table/table.css';
+@import 'blocks/table/__cell/table__cell.css';
+@import 'blocks/table/__cell/_type/table__cell_type.css';
+@import 'blocks/table/__cell/_type/table__cell_type-size.css';
+@import 'blocks/table/__cell/_td/table__cell_td.css';
+@import 'blocks/table/_striped/table_striped.css';

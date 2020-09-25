@@ -1,0 +1,7 @@
+.sizes__table-container {
+    filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.15));
+    background-color: #ffffff;
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 30px;
+}
