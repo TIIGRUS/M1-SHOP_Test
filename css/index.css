@@ -44,3 +44,5 @@
 @import 'blocks/table/__cell/_type/table__cell_type-size.css';
 @import 'blocks/table/__cell/_td/table__cell_td.css';
 @import 'blocks/table/_striped/table_striped.css';
+
+@import 'blocks/catalog/catalog.css';
