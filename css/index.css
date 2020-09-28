@@ -52,6 +52,7 @@
 @import 'blocks/catalog//__filter-buttons/catalog__filter-buttons.css';
 @import 'blocks/catalog/__filter-btn/catalog__filter-btn.css';
 @import 'blocks/catalog/__items/catalog__items.css';
+@import 'blocks/catalog/__filter-item/catalog__filter-item.css';
 
 @import 'blocks/product/product.css';
 @import 'blocks/product/__image/product__image.css';
