@@ -1,0 +1,13 @@
+.steps__item {
+    text-align: center;
+}
+
+.steps__item:first-of-type .steps__description:after,
+.steps__item:last-of-type .steps__description:after {
+    width: 50%;
+}
+
+.steps__item:first-of-type .steps__description:after {
+    left: auto;
+    right: 0;
+}

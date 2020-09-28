@@ -72,3 +72,10 @@
 @import 'blocks/control/__label/_type/control__label_type-color.css';
 @import 'blocks/control/__label/_type/control__label_type-size.css';
 @import 'blocks/control/_disabled/control_disabled-size.css';
+
+@import 'blocks/steps/steps.css';
+@import 'blocks/steps/__item/steps__item.css';
+@import 'blocks/steps/__container/steps__container.css';
+@import 'blocks/steps/__title/steps__title.css';
+@import 'blocks/steps/__wrap-icon/steps__wrap-icon.css';
+@import 'blocks/steps/__description/steps__description.css';

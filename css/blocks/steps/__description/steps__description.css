@@ -1,0 +1,27 @@
+.steps__description {
+    line-height: 24px;
+    position: relative;
+}
+
+.steps__description::before,
+.steps__description::after {
+    content: '';
+    display: block;
+}
+
+.steps__description::before {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ceced3;
+    box-shadow: 0 0 0 3px rgb(206, 206, 211, .3);
+    margin: 0 auto 16px;
+}
+
+.steps__description::after {
+    width: 100%;
+    border-top: 1px dotted #ceced3;
+    position: absolute;
+    top: 4px;
+    left: 0;
+}
