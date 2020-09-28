@@ -1,0 +1,19 @@
+.product__btn {
+    border-radius: 4px;
+    filter: drop-shadow(0px 4px 0px #375cb3);
+    padding: 13px 15px;
+    font-weight: 600;
+    background: linear-gradient(0deg, #4775e5 0%, #8d53e9 100%);
+    position: relative;
+    transition: background 0.25s ease-out, filter 0.25s linear, transform 0.25s linear;
+    background-size: 1px 55px;
+}
+
+.product__btn:focus {
+    filter: drop-shadow(0px 1px 0px rgba(55, 92, 179, 0.7));
+    transform: translateY(2px);
+}
+
+.product__btn:hover {
+    background-size: 1px 200px;
+}
