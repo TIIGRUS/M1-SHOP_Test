@@ -1,0 +1,7 @@
+.control__label {
+    display: block;
+    transition: all .5s ease;
+    cursor: pointer;
+    z-index: 1;
+    position: relative;
+}

@@ -1,0 +1,5 @@
+.control_disabled-size .control__label,
+.control_disabled-size .control__input {
+    pointer-events: none;
+    color: #ceced3;
+}

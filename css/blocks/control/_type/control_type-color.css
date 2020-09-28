@@ -1,0 +1,8 @@
+.control_type-color {
+    background: #dbdbdf;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0 5px;
+    border: 2px solid #dbdbdf;
+}

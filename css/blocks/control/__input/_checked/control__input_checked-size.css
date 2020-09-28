@@ -1,0 +1,3 @@
+.control__input_checked-size:checked+.control__label {
+    border-color:  #ba0152;
+}
