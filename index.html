@@ -126,57 +126,71 @@
             </div>
         </section>
 
-        <section class="catalog page__container">
+        <section class="catalog page__container" id="tabs">
             <h3 class="page__title">
                 Каталог
             </h3>
             <div class="catalog__filter-buttons">
-                <button type="button" class="btn btn_danger catalog__filter-btn">
-                    повседневные портупеи
-                </button>
-                <button type="button" class="btn btn_gray catalog__filter-btn">
-                    эротические портупеи
-                </button>
+                <ul>
+                    <li>
+                        <a href="#harness-everyday" class="btn btn_gray catalog__filter-btn">
+                            повседневные портупеи
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#harness-ero" class="btn btn_gray catalog__filter-btn">эротические портупеи</a>
+                    </li>
+                </ul>
             </div>
-            <div class="catalog__items">
+            <div class="catalog__items" id="harness-everyday">
                 <figure class="product">
                     <img src="img/product__thumb-1.png" class="product__image" alt="Продукт">
                     <figcaption class="product__description">
                         <h4 class="product__title">Портупея “Пеппи”</h4>
                         <div class="product__container product__container_size">
                             <div class="control product__size">
-                                <input type="checkbox" value="1" id="sizeSelectXS" name="XS" class="control__input control__input_checked-size" />
+                                <input type="checkbox" value="1" id="sizeSelectXS" name="XS"
+                                    class="control__input control__input_checked-size" />
                                 <label class="control__label control__label_type-size" for="sizeSelectXS">XS</label>
                             </div>
                             <div class="control product__size">
-                                <input type="checkbox" value="2" id="sizeSelectS" name="S" class="control__input control__input_checked-size" />
+                                <input type="checkbox" value="2" id="sizeSelectS" name="S"
+                                    class="control__input control__input_checked-size" />
                                 <label class="control__label control__label_type-size" for="sizeSelectS">S</label>
                             </div>
                             <div class="control product__size">
-                                <input type="checkbox" value="3" id="sizeSelectM" name="M" class="control__input control__input_checked-size" />
+                                <input type="checkbox" value="3" id="sizeSelectM" name="M"
+                                    class="control__input control__input_checked-size" />
                                 <label class="control__label control__label_type-size" for="sizeSelectM">M</label>
                             </div>
                             <div class="control product__size">
-                                <input type="checkbox" value="4" id="sizeSelectL" name="L" class="control__input control__input_checked-size" />
+                                <input type="checkbox" value="4" id="sizeSelectL" name="L"
+                                    class="control__input control__input_checked-size" />
                                 <label class="control__label control__label_type-size" for="sizeSelectL">L</label>
                             </div>
                             <div class="control control_disabled-size product__size">
-                                <input type="checkbox" value="5" id="sizeSelectXl" name="XL" class="control__input control__input_checked-size" />
+                                <input type="checkbox" value="5" id="sizeSelectXl" name="XL"
+                                    class="control__input control__input_checked-size" />
                                 <label class="control__label control__label_type-size" for="sizeSelectXl">XL</label>
                             </div>
                             <div class="control control_disabled-size product__size">
-                                <input type="checkbox" value="6" id="sizeSelectXXL" name="XXL" class="control__input control__input_checked-size" />
+                                <input type="checkbox" value="6" id="sizeSelectXXL" name="XXL"
+                                    class="control__input control__input_checked-size" />
                                 <label class="control__label control__label_type-size" for="sizeSelectXXL">XXL</label>
                             </div>
                         </div>
                         <div class="product__container">
                             <div class="control control_type-color">
-                                <input type="checkbox" value="1" id="colorSelect" name="black" class="control__input control__input_checked-color"/>
-                                <label style="background: #000;" class="control__label control__label_type-color" for="colorSelect"></label>
+                                <input type="checkbox" value="1" id="colorSelect" name="black"
+                                    class="control__input control__input_checked-color" />
+                                <label style="background: #000;" class="control__label control__label_type-color"
+                                    for="colorSelect"></label>
                             </div>
                             <div class="control control_type-color">
-                                <input type="checkbox" value="2" id="colorSelect2" name="red" class="control__input control__input_checked-color"/>
-                                <label style="background: #ff0000;" class="control__label control__label_type-color" for="colorSelect2"></label>
+                                <input type="checkbox" value="2" id="colorSelect2" name="red"
+                                    class="control__input control__input_checked-color" />
+                                <label style="background: #ff0000;" class="control__label control__label_type-color"
+                                    for="colorSelect2"></label>
                             </div>
                         </div>
                         <div class="product__container">
@@ -199,38 +213,48 @@
                         <h4 class="product__title">Портупея “Влади”</h4>
                         <div class="product__container product__container_size">
                             <div class="control product__size">
-                                <input type="checkbox" value="1" id="sizeSelectXS2" name="XS" class="control__input control__input_checked-size" />
+                                <input type="checkbox" value="1" id="sizeSelectXS2" name="XS"
+                                    class="control__input control__input_checked-size" />
                                 <label class="control__label control__label_type-size" for="sizeSelectXS2">XS</label>
                             </div>
                             <div class="control product__size">
-                                <input type="checkbox" value="2" id="sizeSelectS2" name="S" class="control__input control__input_checked-size" />
+                                <input type="checkbox" value="2" id="sizeSelectS2" name="S"
+                                    class="control__input control__input_checked-size" />
                                 <label class="control__label control__label_type-size" for="sizeSelectS2">S</label>
                             </div>
                             <div class="control product__size">
-                                <input type="checkbox" value="3" id="sizeSelectM3" name="M" class="control__input control__input_checked-size" />
+                                <input type="checkbox" value="3" id="sizeSelectM3" name="M"
+                                    class="control__input control__input_checked-size" />
                                 <label class="control__label control__label_type-size" for="sizeSelectM3">M</label>
                             </div>
                             <div class="control product__size">
-                                <input type="checkbox" value="4" id="sizeSelectL3" name="L" class="control__input control__input_checked-size" />
+                                <input type="checkbox" value="4" id="sizeSelectL3" name="L"
+                                    class="control__input control__input_checked-size" />
                                 <label class="control__label control__label_type-size" for="sizeSelectL3">L</label>
                             </div>
                             <div class="control control_disabled-size product__size">
-                                <input type="checkbox" value="5" id="sizeSelectXl4" name="XL" class="control__input control__input_checked-size" />
+                                <input type="checkbox" value="5" id="sizeSelectXl4" name="XL"
+                                    class="control__input control__input_checked-size" />
                                 <label class="control__label control__label_type-size" for="sizeSelectXl4">XL</label>
                             </div>
                             <div class="control control_disabled-size product__size">
-                                <input type="checkbox" value="6" id="sizeSelectXXL5" name="XXL" class="control__input control__input_checked-size" />
+                                <input type="checkbox" value="6" id="sizeSelectXXL5" name="XXL"
+                                    class="control__input control__input_checked-size" />
                                 <label class="control__label control__label_type-size" for="sizeSelectXXL5">XXL</label>
                             </div>
                         </div>
                         <div class="product__container">
                             <div class="control control_type-color">
-                                <input type="checkbox" value="1" id="colorSelect21" name="black" class="control__input control__input_checked-color"/>
-                                <label style="background: #000;" class="control__label control__label_type-color" for="colorSelect21"></label>
+                                <input type="checkbox" value="1" id="colorSelect21" name="black"
+                                    class="control__input control__input_checked-color" />
+                                <label style="background: #000;" class="control__label control__label_type-color"
+                                    for="colorSelect21"></label>
                             </div>
                             <div class="control control_type-color">
-                                <input type="checkbox" value="2" id="colorSelect22" name="red" class="control__input control__input_checked-color"/>
-                                <label style="background: #ff0000;" class="control__label control__label_type-color" for="colorSelect22"></label>
+                                <input type="checkbox" value="2" id="colorSelect22" name="red"
+                                    class="control__input control__input_checked-color" />
+                                <label style="background: #ff0000;" class="control__label control__label_type-color"
+                                    for="colorSelect22"></label>
                             </div>
                         </div>
                         <div class="product__container">
@@ -253,38 +277,48 @@
                         <h4 class="product__title">Портупея “Джони Миллер”</h4>
                         <div class="product__container product__container_size">
                             <div class="control product__size">
-                                <input type="checkbox" value="1" id="sizeSelectXS3" name="XS" class="control__input control__input_checked-size" />
+                                <input type="checkbox" value="1" id="sizeSelectXS3" name="XS"
+                                    class="control__input control__input_checked-size" />
                                 <label class="control__label control__label_type-size" for="sizeSelectXS3">XS</label>
                             </div>
                             <div class="control product__size">
-                                <input type="checkbox" value="2" id="sizeSelectS3" name="S" class="control__input control__input_checked-size" />
+                                <input type="checkbox" value="2" id="sizeSelectS3" name="S"
+                                    class="control__input control__input_checked-size" />
                                 <label class="control__label control__label_type-size" for="sizeSelectS3">S</label>
                             </div>
                             <div class="control product__size">
-                                <input type="checkbox" value="3" id="sizeSelectM4" name="M" class="control__input control__input_checked-size" />
+                                <input type="checkbox" value="3" id="sizeSelectM4" name="M"
+                                    class="control__input control__input_checked-size" />
                                 <label class="control__label control__label_type-size" for="sizeSelectM4">M</label>
                             </div>
                             <div class="control product__size">
-                                <input type="checkbox" value="4" id="sizeSelectL4" name="L" class="control__input control__input_checked-size" />
+                                <input type="checkbox" value="4" id="sizeSelectL4" name="L"
+                                    class="control__input control__input_checked-size" />
                                 <label class="control__label control__label_type-size" for="sizeSelectL4">L</label>
                             </div>
                             <div class="control control_disabled-size product__size">
-                                <input type="checkbox" value="5" id="sizeSelectXl5" name="XL" class="control__input control__input_checked-size" />
+                                <input type="checkbox" value="5" id="sizeSelectXl5" name="XL"
+                                    class="control__input control__input_checked-size" />
                                 <label class="control__label control__label_type-size" for="sizeSelectXl5">XL</label>
                             </div>
                             <div class="control control_disabled-size product__size">
-                                <input type="checkbox" value="6" id="sizeSelectXXL6" name="XXL" class="control__input control__input_checked-size" />
+                                <input type="checkbox" value="6" id="sizeSelectXXL6" name="XXL"
+                                    class="control__input control__input_checked-size" />
                                 <label class="control__label control__label_type-size" for="sizeSelectXXL6">XXL</label>
                             </div>
                         </div>
                         <div class="product__container">
                             <div class="control control_type-color">
-                                <input type="checkbox" value="1" id="colorSelect31" name="black" class="control__input control__input_checked-color"/>
-                                <label style="background: #000;" class="control__label control__label_type-color" for="colorSelect31"></label>
+                                <input type="checkbox" value="1" id="colorSelect31" name="black"
+                                    class="control__input control__input_checked-color" />
+                                <label style="background: #000;" class="control__label control__label_type-color"
+                                    for="colorSelect31"></label>
                             </div>
                             <div class="control control_type-color">
-                                <input type="checkbox" value="2" id="colorSelect32" name="red" class="control__input control__input_checked-color"/>
-                                <label style="background: #ff0000;" class="control__label control__label_type-color" for="colorSelect32"></label>
+                                <input type="checkbox" value="2" id="colorSelect32" name="red"
+                                    class="control__input control__input_checked-color" />
+                                <label style="background: #ff0000;" class="control__label control__label_type-color"
+                                    for="colorSelect32"></label>
                             </div>
                         </div>
                         <div class="product__container">
@@ -307,38 +341,48 @@
                         <h4 class="product__title">Портупея “Пеппи”</h4>
                         <div class="product__container product__container_size">
                             <div class="control product__size">
-                                <input type="checkbox" value="1" id="sizeSelectXS" name="XS" class="control__input control__input_checked-size" />
+                                <input type="checkbox" value="1" id="sizeSelectXS" name="XS"
+                                    class="control__input control__input_checked-size" />
                                 <label class="control__label control__label_type-size" for="sizeSelectXS">XS</label>
                             </div>
                             <div class="control product__size">
-                                <input type="checkbox" value="2" id="sizeSelectS" name="S" class="control__input control__input_checked-size" />
+                                <input type="checkbox" value="2" id="sizeSelectS" name="S"
+                                    class="control__input control__input_checked-size" />
                                 <label class="control__label control__label_type-size" for="sizeSelectS">S</label>
                             </div>
                             <div class="control product__size">
-                                <input type="checkbox" value="3" id="sizeSelectM" name="M" class="control__input control__input_checked-size" />
+                                <input type="checkbox" value="3" id="sizeSelectM" name="M"
+                                    class="control__input control__input_checked-size" />
                                 <label class="control__label control__label_type-size" for="sizeSelectM">M</label>
                             </div>
                             <div class="control product__size">
-                                <input type="checkbox" value="4" id="sizeSelectL" name="L" class="control__input control__input_checked-size" />
+                                <input type="checkbox" value="4" id="sizeSelectL" name="L"
+                                    class="control__input control__input_checked-size" />
                                 <label class="control__label control__label_type-size" for="sizeSelectL">L</label>
                             </div>
                             <div class="control control_disabled-size product__size">
-                                <input type="checkbox" value="5" id="sizeSelectXl" name="XL" class="control__input control__input_checked-size" />
+                                <input type="checkbox" value="5" id="sizeSelectXl" name="XL"
+                                    class="control__input control__input_checked-size" />
                                 <label class="control__label control__label_type-size" for="sizeSelectXl">XL</label>
                             </div>
                             <div class="control control_disabled-size product__size">
-                                <input type="checkbox" value="6" id="sizeSelectXXL" name="XXL" class="control__input control__input_checked-size" />
+                                <input type="checkbox" value="6" id="sizeSelectXXL" name="XXL"
+                                    class="control__input control__input_checked-size" />
                                 <label class="control__label control__label_type-size" for="sizeSelectXXL">XXL</label>
                             </div>
                         </div>
                         <div class="product__container">
                             <div class="control control_type-color">
-                                <input type="checkbox" value="1" id="colorSelect" name="black" class="control__input control__input_checked-color"/>
-                                <label style="background: #000;" class="control__label control__label_type-color" for="colorSelect"></label>
+                                <input type="checkbox" value="1" id="colorSelect" name="black"
+                                    class="control__input control__input_checked-color" />
+                                <label style="background: #000;" class="control__label control__label_type-color"
+                                    for="colorSelect"></label>
                             </div>
                             <div class="control control_type-color">
-                                <input type="checkbox" value="2" id="colorSelect2" name="red" class="control__input control__input_checked-color"/>
-                                <label style="background: #ff0000;" class="control__label control__label_type-color" for="colorSelect2"></label>
+                                <input type="checkbox" value="2" id="colorSelect2" name="red"
+                                    class="control__input control__input_checked-color" />
+                                <label style="background: #ff0000;" class="control__label control__label_type-color"
+                                    for="colorSelect2"></label>
                             </div>
                         </div>
                         <div class="product__container">
@@ -361,38 +405,48 @@
                         <h4 class="product__title">Портупея “Влади”</h4>
                         <div class="product__container product__container_size">
                             <div class="control product__size">
-                                <input type="checkbox" value="1" id="sizeSelectXS2" name="XS" class="control__input control__input_checked-size" />
+                                <input type="checkbox" value="1" id="sizeSelectXS2" name="XS"
+                                    class="control__input control__input_checked-size" />
                                 <label class="control__label control__label_type-size" for="sizeSelectXS2">XS</label>
                             </div>
                             <div class="control product__size">
-                                <input type="checkbox" value="2" id="sizeSelectS2" name="S" class="control__input control__input_checked-size" />
+                                <input type="checkbox" value="2" id="sizeSelectS2" name="S"
+                                    class="control__input control__input_checked-size" />
                                 <label class="control__label control__label_type-size" for="sizeSelectS2">S</label>
                             </div>
                             <div class="control product__size">
-                                <input type="checkbox" value="3" id="sizeSelectM3" name="M" class="control__input control__input_checked-size" />
+                                <input type="checkbox" value="3" id="sizeSelectM3" name="M"
+                                    class="control__input control__input_checked-size" />
                                 <label class="control__label control__label_type-size" for="sizeSelectM3">M</label>
                             </div>
                             <div class="control product__size">
-                                <input type="checkbox" value="4" id="sizeSelectL3" name="L" class="control__input control__input_checked-size" />
+                                <input type="checkbox" value="4" id="sizeSelectL3" name="L"
+                                    class="control__input control__input_checked-size" />
                                 <label class="control__label control__label_type-size" for="sizeSelectL3">L</label>
                             </div>
                             <div class="control control_disabled-size product__size">
-                                <input type="checkbox" value="5" id="sizeSelectXl4" name="XL" class="control__input control__input_checked-size" />
+                                <input type="checkbox" value="5" id="sizeSelectXl4" name="XL"
+                                    class="control__input control__input_checked-size" />
                                 <label class="control__label control__label_type-size" for="sizeSelectXl4">XL</label>
                             </div>
                             <div class="control control_disabled-size product__size">
-                                <input type="checkbox" value="6" id="sizeSelectXXL5" name="XXL" class="control__input control__input_checked-size" />
+                                <input type="checkbox" value="6" id="sizeSelectXXL5" name="XXL"
+                                    class="control__input control__input_checked-size" />
                                 <label class="control__label control__label_type-size" for="sizeSelectXXL5">XXL</label>
                             </div>
                         </div>
                         <div class="product__container">
                             <div class="control control_type-color">
-                                <input type="checkbox" value="1" id="colorSelect21" name="black" class="control__input control__input_checked-color"/>
-                                <label style="background: #000;" class="control__label control__label_type-color" for="colorSelect21"></label>
+                                <input type="checkbox" value="1" id="colorSelect21" name="black"
+                                    class="control__input control__input_checked-color" />
+                                <label style="background: #000;" class="control__label control__label_type-color"
+                                    for="colorSelect21"></label>
                             </div>
                             <div class="control control_type-color">
-                                <input type="checkbox" value="2" id="colorSelect22" name="red" class="control__input control__input_checked-color"/>
-                                <label style="background: #ff0000;" class="control__label control__label_type-color" for="colorSelect22"></label>
+                                <input type="checkbox" value="2" id="colorSelect22" name="red"
+                                    class="control__input control__input_checked-color" />
+                                <label style="background: #ff0000;" class="control__label control__label_type-color"
+                                    for="colorSelect22"></label>
                             </div>
                         </div>
                         <div class="product__container">
@@ -415,38 +469,434 @@
                         <h4 class="product__title">Портупея “Джони Миллер”</h4>
                         <div class="product__container product__container_size">
                             <div class="control product__size">
-                                <input type="checkbox" value="1" id="sizeSelectXS3" name="XS" class="control__input control__input_checked-size" />
+                                <input type="checkbox" value="1" id="sizeSelectXS3" name="XS"
+                                    class="control__input control__input_checked-size" />
                                 <label class="control__label control__label_type-size" for="sizeSelectXS3">XS</label>
                             </div>
                             <div class="control product__size">
-                                <input type="checkbox" value="2" id="sizeSelectS3" name="S" class="control__input control__input_checked-size" />
+                                <input type="checkbox" value="2" id="sizeSelectS3" name="S"
+                                    class="control__input control__input_checked-size" />
                                 <label class="control__label control__label_type-size" for="sizeSelectS3">S</label>
                             </div>
                             <div class="control product__size">
-                                <input type="checkbox" value="3" id="sizeSelectM4" name="M" class="control__input control__input_checked-size" />
+                                <input type="checkbox" value="3" id="sizeSelectM4" name="M"
+                                    class="control__input control__input_checked-size" />
                                 <label class="control__label control__label_type-size" for="sizeSelectM4">M</label>
                             </div>
                             <div class="control product__size">
-                                <input type="checkbox" value="4" id="sizeSelectL4" name="L" class="control__input control__input_checked-size" />
+                                <input type="checkbox" value="4" id="sizeSelectL4" name="L"
+                                    class="control__input control__input_checked-size" />
                                 <label class="control__label control__label_type-size" for="sizeSelectL4">L</label>
                             </div>
                             <div class="control control_disabled-size product__size">
-                                <input type="checkbox" value="5" id="sizeSelectXl5" name="XL" class="control__input control__input_checked-size" />
+                                <input type="checkbox" value="5" id="sizeSelectXl5" name="XL"
+                                    class="control__input control__input_checked-size" />
                                 <label class="control__label control__label_type-size" for="sizeSelectXl5">XL</label>
                             </div>
                             <div class="control control_disabled-size product__size">
-                                <input type="checkbox" value="6" id="sizeSelectXXL6" name="XXL" class="control__input control__input_checked-size" />
+                                <input type="checkbox" value="6" id="sizeSelectXXL6" name="XXL"
+                                    class="control__input control__input_checked-size" />
                                 <label class="control__label control__label_type-size" for="sizeSelectXXL6">XXL</label>
                             </div>
                         </div>
                         <div class="product__container">
                             <div class="control control_type-color">
-                                <input type="checkbox" value="1" id="colorSelect31" name="black" class="control__input control__input_checked-color"/>
-                                <label style="background: #000;" class="control__label control__label_type-color" for="colorSelect31"></label>
+                                <input type="checkbox" value="1" id="colorSelect31" name="black"
+                                    class="control__input control__input_checked-color" />
+                                <label style="background: #000;" class="control__label control__label_type-color"
+                                    for="colorSelect31"></label>
                             </div>
                             <div class="control control_type-color">
-                                <input type="checkbox" value="2" id="colorSelect32" name="red" class="control__input control__input_checked-color"/>
-                                <label style="background: #ff0000;" class="control__label control__label_type-color" for="colorSelect32"></label>
+                                <input type="checkbox" value="2" id="colorSelect32" name="red"
+                                    class="control__input control__input_checked-color" />
+                                <label style="background: #ff0000;" class="control__label control__label_type-color"
+                                    for="colorSelect32"></label>
+                            </div>
+                        </div>
+                        <div class="product__container">
+                            <span class="product__price product__price_old">
+                                4990 р.
+                            </span>
+                            <span class="product__price">
+                                2990 р.
+                            </span>
+                        </div>
+                        <a href="#" class="btn product__btn">заказать</a>
+                        <span class="product__discount">
+                            -53%
+                        </span>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="catalog__items" id="harness-ero">
+                <figure class="product">
+                    <img src="img/product__thumb-1.png" class="product__image" alt="Продукт">
+                    <figcaption class="product__description">
+                        <h4 class="product__title">Портупея “Пеппи”</h4>
+                        <div class="product__container product__container_size">
+                            <div class="control product__size">
+                                <input type="checkbox" value="1" id="sizeSelectXS" name="XS"
+                                    class="control__input control__input_checked-size" />
+                                <label class="control__label control__label_type-size" for="sizeSelectXS">XS</label>
+                            </div>
+                            <div class="control product__size">
+                                <input type="checkbox" value="2" id="sizeSelectS" name="S"
+                                    class="control__input control__input_checked-size" />
+                                <label class="control__label control__label_type-size" for="sizeSelectS">S</label>
+                            </div>
+                            <div class="control product__size">
+                                <input type="checkbox" value="3" id="sizeSelectM" name="M"
+                                    class="control__input control__input_checked-size" />
+                                <label class="control__label control__label_type-size" for="sizeSelectM">M</label>
+                            </div>
+                            <div class="control product__size">
+                                <input type="checkbox" value="4" id="sizeSelectL" name="L"
+                                    class="control__input control__input_checked-size" />
+                                <label class="control__label control__label_type-size" for="sizeSelectL">L</label>
+                            </div>
+                            <div class="control control_disabled-size product__size">
+                                <input type="checkbox" value="5" id="sizeSelectXl" name="XL"
+                                    class="control__input control__input_checked-size" />
+                                <label class="control__label control__label_type-size" for="sizeSelectXl">XL</label>
+                            </div>
+                            <div class="control control_disabled-size product__size">
+                                <input type="checkbox" value="6" id="sizeSelectXXL" name="XXL"
+                                    class="control__input control__input_checked-size" />
+                                <label class="control__label control__label_type-size" for="sizeSelectXXL">XXL</label>
+                            </div>
+                        </div>
+                        <div class="product__container">
+                            <div class="control control_type-color">
+                                <input type="checkbox" value="1" id="colorSelect" name="black"
+                                    class="control__input control__input_checked-color" />
+                                <label style="background: #000;" class="control__label control__label_type-color"
+                                    for="colorSelect"></label>
+                            </div>
+                            <div class="control control_type-color">
+                                <input type="checkbox" value="2" id="colorSelect2" name="red"
+                                    class="control__input control__input_checked-color" />
+                                <label style="background: #ff0000;" class="control__label control__label_type-color"
+                                    for="colorSelect2"></label>
+                            </div>
+                        </div>
+                        <div class="product__container">
+                            <span class="product__price product__price_old">
+                                4990 р.
+                            </span>
+                            <span class="product__price">
+                                2990 р.
+                            </span>
+                        </div>
+                        <a href="#" class="btn product__btn">заказать</a>
+                        <span class="product__discount">
+                            -53%
+                        </span>
+                    </figcaption>
+                </figure>
+                <figure class="product">
+                    <img src="img/product__thumb-2.png" class="product__image" alt="Продукт">
+                    <figcaption class="product__description">
+                        <h4 class="product__title">Портупея “Влади”</h4>
+                        <div class="product__container product__container_size">
+                            <div class="control product__size">
+                                <input type="checkbox" value="1" id="sizeSelectXS2" name="XS"
+                                    class="control__input control__input_checked-size" />
+                                <label class="control__label control__label_type-size" for="sizeSelectXS2">XS</label>
+                            </div>
+                            <div class="control product__size">
+                                <input type="checkbox" value="2" id="sizeSelectS2" name="S"
+                                    class="control__input control__input_checked-size" />
+                                <label class="control__label control__label_type-size" for="sizeSelectS2">S</label>
+                            </div>
+                            <div class="control product__size">
+                                <input type="checkbox" value="3" id="sizeSelectM3" name="M"
+                                    class="control__input control__input_checked-size" />
+                                <label class="control__label control__label_type-size" for="sizeSelectM3">M</label>
+                            </div>
+                            <div class="control product__size">
+                                <input type="checkbox" value="4" id="sizeSelectL3" name="L"
+                                    class="control__input control__input_checked-size" />
+                                <label class="control__label control__label_type-size" for="sizeSelectL3">L</label>
+                            </div>
+                            <div class="control control_disabled-size product__size">
+                                <input type="checkbox" value="5" id="sizeSelectXl4" name="XL"
+                                    class="control__input control__input_checked-size" />
+                                <label class="control__label control__label_type-size" for="sizeSelectXl4">XL</label>
+                            </div>
+                            <div class="control control_disabled-size product__size">
+                                <input type="checkbox" value="6" id="sizeSelectXXL5" name="XXL"
+                                    class="control__input control__input_checked-size" />
+                                <label class="control__label control__label_type-size" for="sizeSelectXXL5">XXL</label>
+                            </div>
+                        </div>
+                        <div class="product__container">
+                            <div class="control control_type-color">
+                                <input type="checkbox" value="1" id="colorSelect21" name="black"
+                                    class="control__input control__input_checked-color" />
+                                <label style="background: #000;" class="control__label control__label_type-color"
+                                    for="colorSelect21"></label>
+                            </div>
+                            <div class="control control_type-color">
+                                <input type="checkbox" value="2" id="colorSelect22" name="red"
+                                    class="control__input control__input_checked-color" />
+                                <label style="background: #ff0000;" class="control__label control__label_type-color"
+                                    for="colorSelect22"></label>
+                            </div>
+                        </div>
+                        <div class="product__container">
+                            <span class="product__price product__price_old">
+                                4990 р.
+                            </span>
+                            <span class="product__price">
+                                2990 р.
+                            </span>
+                        </div>
+                        <a href="#" class="btn product__btn">заказать</a>
+                        <span class="product__discount">
+                            -53%
+                        </span>
+                    </figcaption>
+                </figure>
+                <figure class="product">
+                    <img src="img/product__thumb-3.png" class="product__image" alt="Продукт">
+                    <figcaption class="product__description">
+                        <h4 class="product__title">Портупея “Джони Миллер”</h4>
+                        <div class="product__container product__container_size">
+                            <div class="control product__size">
+                                <input type="checkbox" value="1" id="sizeSelectXS3" name="XS"
+                                    class="control__input control__input_checked-size" />
+                                <label class="control__label control__label_type-size" for="sizeSelectXS3">XS</label>
+                            </div>
+                            <div class="control product__size">
+                                <input type="checkbox" value="2" id="sizeSelectS3" name="S"
+                                    class="control__input control__input_checked-size" />
+                                <label class="control__label control__label_type-size" for="sizeSelectS3">S</label>
+                            </div>
+                            <div class="control product__size">
+                                <input type="checkbox" value="3" id="sizeSelectM4" name="M"
+                                    class="control__input control__input_checked-size" />
+                                <label class="control__label control__label_type-size" for="sizeSelectM4">M</label>
+                            </div>
+                            <div class="control product__size">
+                                <input type="checkbox" value="4" id="sizeSelectL4" name="L"
+                                    class="control__input control__input_checked-size" />
+                                <label class="control__label control__label_type-size" for="sizeSelectL4">L</label>
+                            </div>
+                            <div class="control control_disabled-size product__size">
+                                <input type="checkbox" value="5" id="sizeSelectXl5" name="XL"
+                                    class="control__input control__input_checked-size" />
+                                <label class="control__label control__label_type-size" for="sizeSelectXl5">XL</label>
+                            </div>
+                            <div class="control control_disabled-size product__size">
+                                <input type="checkbox" value="6" id="sizeSelectXXL6" name="XXL"
+                                    class="control__input control__input_checked-size" />
+                                <label class="control__label control__label_type-size" for="sizeSelectXXL6">XXL</label>
+                            </div>
+                        </div>
+                        <div class="product__container">
+                            <div class="control control_type-color">
+                                <input type="checkbox" value="1" id="colorSelect31" name="black"
+                                    class="control__input control__input_checked-color" />
+                                <label style="background: #000;" class="control__label control__label_type-color"
+                                    for="colorSelect31"></label>
+                            </div>
+                            <div class="control control_type-color">
+                                <input type="checkbox" value="2" id="colorSelect32" name="red"
+                                    class="control__input control__input_checked-color" />
+                                <label style="background: #ff0000;" class="control__label control__label_type-color"
+                                    for="colorSelect32"></label>
+                            </div>
+                        </div>
+                        <div class="product__container">
+                            <span class="product__price product__price_old">
+                                4990 р.
+                            </span>
+                            <span class="product__price">
+                                2990 р.
+                            </span>
+                        </div>
+                        <a href="#" class="btn product__btn">заказать</a>
+                        <span class="product__discount">
+                            -53%
+                        </span>
+                    </figcaption>
+                </figure>
+                <figure class="product">
+                    <img src="img/product__thumb-1.png" class="product__image" alt="Продукт">
+                    <figcaption class="product__description">
+                        <h4 class="product__title">Портупея “Пеппи”</h4>
+                        <div class="product__container product__container_size">
+                            <div class="control product__size">
+                                <input type="checkbox" value="1" id="sizeSelectXS" name="XS"
+                                    class="control__input control__input_checked-size" />
+                                <label class="control__label control__label_type-size" for="sizeSelectXS">XS</label>
+                            </div>
+                            <div class="control product__size">
+                                <input type="checkbox" value="2" id="sizeSelectS" name="S"
+                                    class="control__input control__input_checked-size" />
+                                <label class="control__label control__label_type-size" for="sizeSelectS">S</label>
+                            </div>
+                            <div class="control product__size">
+                                <input type="checkbox" value="3" id="sizeSelectM" name="M"
+                                    class="control__input control__input_checked-size" />
+                                <label class="control__label control__label_type-size" for="sizeSelectM">M</label>
+                            </div>
+                            <div class="control product__size">
+                                <input type="checkbox" value="4" id="sizeSelectL" name="L"
+                                    class="control__input control__input_checked-size" />
+                                <label class="control__label control__label_type-size" for="sizeSelectL">L</label>
+                            </div>
+                            <div class="control control_disabled-size product__size">
+                                <input type="checkbox" value="5" id="sizeSelectXl" name="XL"
+                                    class="control__input control__input_checked-size" />
+                                <label class="control__label control__label_type-size" for="sizeSelectXl">XL</label>
+                            </div>
+                            <div class="control control_disabled-size product__size">
+                                <input type="checkbox" value="6" id="sizeSelectXXL" name="XXL"
+                                    class="control__input control__input_checked-size" />
+                                <label class="control__label control__label_type-size" for="sizeSelectXXL">XXL</label>
+                            </div>
+                        </div>
+                        <div class="product__container">
+                            <div class="control control_type-color">
+                                <input type="checkbox" value="1" id="colorSelect" name="black"
+                                    class="control__input control__input_checked-color" />
+                                <label style="background: #000;" class="control__label control__label_type-color"
+                                    for="colorSelect"></label>
+                            </div>
+                            <div class="control control_type-color">
+                                <input type="checkbox" value="2" id="colorSelect2" name="red"
+                                    class="control__input control__input_checked-color" />
+                                <label style="background: #ff0000;" class="control__label control__label_type-color"
+                                    for="colorSelect2"></label>
+                            </div>
+                        </div>
+                        <div class="product__container">
+                            <span class="product__price product__price_old">
+                                4990 р.
+                            </span>
+                            <span class="product__price">
+                                2990 р.
+                            </span>
+                        </div>
+                        <a href="#" class="btn product__btn">заказать</a>
+                        <span class="product__discount">
+                            -53%
+                        </span>
+                    </figcaption>
+                </figure>
+                <figure class="product">
+                    <img src="img/product__thumb-2.png" class="product__image" alt="Продукт">
+                    <figcaption class="product__description">
+                        <h4 class="product__title">Портупея “Влади”</h4>
+                        <div class="product__container product__container_size">
+                            <div class="control product__size">
+                                <input type="checkbox" value="1" id="sizeSelectXS2" name="XS"
+                                    class="control__input control__input_checked-size" />
+                                <label class="control__label control__label_type-size" for="sizeSelectXS2">XS</label>
+                            </div>
+                            <div class="control product__size">
+                                <input type="checkbox" value="2" id="sizeSelectS2" name="S"
+                                    class="control__input control__input_checked-size" />
+                                <label class="control__label control__label_type-size" for="sizeSelectS2">S</label>
+                            </div>
+                            <div class="control product__size">
+                                <input type="checkbox" value="3" id="sizeSelectM3" name="M"
+                                    class="control__input control__input_checked-size" />
+                                <label class="control__label control__label_type-size" for="sizeSelectM3">M</label>
+                            </div>
+                            <div class="control product__size">
+                                <input type="checkbox" value="4" id="sizeSelectL3" name="L"
+                                    class="control__input control__input_checked-size" />
+                                <label class="control__label control__label_type-size" for="sizeSelectL3">L</label>
+                            </div>
+                            <div class="control control_disabled-size product__size">
+                                <input type="checkbox" value="5" id="sizeSelectXl4" name="XL"
+                                    class="control__input control__input_checked-size" />
+                                <label class="control__label control__label_type-size" for="sizeSelectXl4">XL</label>
+                            </div>
+                            <div class="control control_disabled-size product__size">
+                                <input type="checkbox" value="6" id="sizeSelectXXL5" name="XXL"
+                                    class="control__input control__input_checked-size" />
+                                <label class="control__label control__label_type-size" for="sizeSelectXXL5">XXL</label>
+                            </div>
+                        </div>
+                        <div class="product__container">
+                            <div class="control control_type-color">
+                                <input type="checkbox" value="1" id="colorSelect21" name="black"
+                                    class="control__input control__input_checked-color" />
+                                <label style="background: #000;" class="control__label control__label_type-color"
+                                    for="colorSelect21"></label>
+                            </div>
+                            <div class="control control_type-color">
+                                <input type="checkbox" value="2" id="colorSelect22" name="red"
+                                    class="control__input control__input_checked-color" />
+                                <label style="background: #ff0000;" class="control__label control__label_type-color"
+                                    for="colorSelect22"></label>
+                            </div>
+                        </div>
+                        <div class="product__container">
+                            <span class="product__price product__price_old">
+                                4990 р.
+                            </span>
+                            <span class="product__price">
+                                2990 р.
+                            </span>
+                        </div>
+                        <a href="#" class="btn product__btn">заказать</a>
+                        <span class="product__discount">
+                            -53%
+                        </span>
+                    </figcaption>
+                </figure>
+                <figure class="product">
+                    <img src="img/product__thumb-3.png" class="product__image" alt="Продукт">
+                    <figcaption class="product__description">
+                        <h4 class="product__title">Портупея “Джони Миллер”</h4>
+                        <div class="product__container product__container_size">
+                            <div class="control product__size">
+                                <input type="checkbox" value="1" id="sizeSelectXS3" name="XS"
+                                    class="control__input control__input_checked-size" />
+                                <label class="control__label control__label_type-size" for="sizeSelectXS3">XS</label>
+                            </div>
+                            <div class="control product__size">
+                                <input type="checkbox" value="2" id="sizeSelectS3" name="S"
+                                    class="control__input control__input_checked-size" />
+                                <label class="control__label control__label_type-size" for="sizeSelectS3">S</label>
+                            </div>
+                            <div class="control product__size">
+                                <input type="checkbox" value="3" id="sizeSelectM4" name="M"
+                                    class="control__input control__input_checked-size" />
+                                <label class="control__label control__label_type-size" for="sizeSelectM4">M</label>
+                            </div>
+                            <div class="control product__size">
+                                <input type="checkbox" value="4" id="sizeSelectL4" name="L"
+                                    class="control__input control__input_checked-size" />
+                                <label class="control__label control__label_type-size" for="sizeSelectL4">L</label>
+                            </div>
+                            <div class="control control_disabled-size product__size">
+                                <input type="checkbox" value="5" id="sizeSelectXl5" name="XL"
+                                    class="control__input control__input_checked-size" />
+                                <label class="control__label control__label_type-size" for="sizeSelectXl5">XL</label>
+                            </div>
+                            <div class="control control_disabled-size product__size">
+                                <input type="checkbox" value="6" id="sizeSelectXXL6" name="XXL"
+                                    class="control__input control__input_checked-size" />
+                                <label class="control__label control__label_type-size" for="sizeSelectXXL6">XXL</label>
+                            </div>
+                        </div>
+                        <div class="product__container">
+                            <div class="control control_type-color">
+                                <input type="checkbox" value="1" id="colorSelect31" name="black"
+                                    class="control__input control__input_checked-color" />
+                                <label style="background: #000;" class="control__label control__label_type-color"
+                                    for="colorSelect31"></label>
+                            </div>
+                            <div class="control control_type-color">
+                                <input type="checkbox" value="2" id="colorSelect32" name="red"
+                                    class="control__input control__input_checked-color" />
+                                <label style="background: #ff0000;" class="control__label control__label_type-color"
+                                    for="colorSelect32"></label>
                             </div>
                         </div>
                         <div class="product__container">
@@ -504,6 +954,11 @@
             </div>
         </section>
     </main>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
 
 </html>
