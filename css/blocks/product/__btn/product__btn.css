@@ -7,6 +7,7 @@
     position: relative;
     transition: background 0.25s ease-out, filter 0.25s linear, transform 0.25s linear;
     background-size: 1px 55px;
+    outline: none;
 }
 
 .product__btn:focus {
