@@ -140,3 +140,15 @@
 	left: 50%;
 	transform: translate(-50%);
 }
+
+.ui-dialog:before {
+	content: '';
+	background-color: #000;
+	opacity: 0.5;
+	height: 100%;
+	width: 100%;
+	display: block;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
