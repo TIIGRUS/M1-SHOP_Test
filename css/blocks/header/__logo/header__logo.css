@@ -1,8 +1,16 @@
 .header__logo {
     text-decoration: none;
     transition: all 0.25s linear;
+    display: block;
 }
 
 .header__logo:hover {
     opacity: 0.7;
+}
+
+@media(max-width: 960px) {
+    .header__logo {
+        width: 100%;
+        text-align: center;
+    }
 }

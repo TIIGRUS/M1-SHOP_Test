@@ -9,3 +9,9 @@
 .nav__item-link:hover {
     text-decoration: underline;
 }
+
+@media(max-width: 960px) {
+    .nav__item-link {
+        font-size: 14px;
+    }
+}
