@@ -1,4 +1,5 @@
   $(function () {
+    // init tabs
       $("#tabs").tabs({
           hide: {
               effect: "fade",
@@ -6,8 +7,9 @@
           }
       });
 
+    //   init modal dialog
       $("#dialog").dialog({
-        //   autoOpen: false,
+        autoOpen: false,
         width: 640,
         show: {
             effect: "fade"
@@ -23,7 +25,12 @@
         },
       });
 
+      // click and open modal
       $(".product__btn").on("click", function () {
           $("#dialog").dialog("open");
       });
+
+      // custom select
+      $("#speed").selectmenu();
+      
   });

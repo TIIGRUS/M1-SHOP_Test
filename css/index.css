@@ -1,13 +1,17 @@
+/* VENDORS STYLES */
 @import 'vendors/normalize.css';
-
 @import 'vendors/tabs.css';
 @import 'vendors/dialog.css';
+/* @import 'vendors/jquery-ui.min.css'; */
+@import 'vendors/selectmenu.css';
 
+
+/* STYLES BASE TO PAGE */
 @import 'blocks/base/base.css';
-
 @import 'blocks/page/page.css';
 @import 'blocks/page/__container/page__container.css';
 @import 'blocks/page/__title/page__title.css';
+/* @import 'blocks/page/_modal-opened/page_modal-opened.css'; */
 
 @import 'blocks/header/header.css';
 @import 'blocks/header/__logo/header__logo.css';
@@ -91,4 +95,9 @@
 @import 'blocks/modal/__img/modal__img.css';
 @import 'blocks/modal/__title/modal__title.css';
 @import 'blocks/modal/__container-content/modal__container-content.css';
-/* @import 'blocks/modal/' */
+
+
+@import 'blocks/form/__group/form__group.css';
+@import 'blocks/form/__control/form__control.css';
+@import 'blocks/form/__btn/form__btn.css';
+/* @import 'blocks/form/'; */

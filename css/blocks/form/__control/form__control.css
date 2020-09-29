@@ -1,4 +1,5 @@
-.form__control {
+.form__control,
+.ui-selectmenu-button {
     display: block;
     width: 100%;
     height: 46px;
@@ -16,7 +17,8 @@
     text-align: center;
 }
 
-.form__control:focus {
+.form__control:focus,
+.ui-selectmenu-button:focus {
     background-color: #fff;
     border-color: #1e1e1e;
     outline: 0;

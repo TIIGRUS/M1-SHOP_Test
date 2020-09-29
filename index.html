@@ -968,10 +968,22 @@
                 </div>
                 <form class="form">
                     <div class="form__group">
-                        <input type="text" class="modal__control">
+                        <select name="speed" class="form__control" id="speed">
+                            <option>Slower</option>
+                            <option>Slow</option>
+                            <option selected="selected">Medium</option>
+                            <option>Fast</option>
+                            <option>Faster</option>
+                        </select>
                     </div>
                     <div class="form__group">
-                        <button type="button" class="btn product__btn">заказать</button>
+                        <input type="text" placeholder="Введите ваше" class="form__control">
+                    </div>
+                    <div class="form__group">
+                        <input type="text" placeholder="Введите ваш телефон" class="form__control">
+                    </div>
+                    <div class="form__group">
+                        <button type="button" class="btn product__btn form__btn">Оформить заказ</button>
                     </div>
                 </form>
             </div>
