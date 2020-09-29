@@ -2,24 +2,26 @@
 @import 'vendors/normalize.css';
 @import 'vendors/tabs.css';
 @import 'vendors/dialog.css';
-/* @import 'vendors/jquery-ui.min.css'; */
 @import 'vendors/selectmenu.css';
 
 
-/* STYLES BASE TO PAGE */
+/* STYLES BASE AND PAGE */
 @import 'blocks/base/base.css';
 @import 'blocks/page/page.css';
 @import 'blocks/page/__container/page__container.css';
 @import 'blocks/page/__title/page__title.css';
 /* @import 'blocks/page/_modal-opened/page_modal-opened.css'; */
 
+/* HEADER */
 @import 'blocks/header/header.css';
 @import 'blocks/header/__logo/header__logo.css';
 @import 'blocks/header/__logo-img/header__logo-img.css';
 
+/* NAV MENU */
 @import 'blocks/nav/__list/nav__list.css';
 @import 'blocks/nav/__item-link/nav__item-link.css';
 
+/* SECTION PROMO */
 @import 'blocks/promo/promo.css';
 @import 'blocks/promo/__container/promo__container.css';
 @import 'blocks/promo/__container/_bg/promo__container_bg.css';
@@ -33,20 +35,24 @@
 @import 'blocks/promo/__discount/_price/promo__discount_price.css';
 @import 'blocks/promo/__btn/promo__btn.css';
 
+/* BUTTONS */
 @import 'blocks/btn/btn.css';
 @import 'blocks/btn/_outline-white/btn_outline-white.css';
 @import 'blocks/btn/_danger/btn_danger.css';
 @import 'blocks/btn/_gray/btn_gray.css';
 
+/* SECTION INFO */
 @import 'blocks/into/into.css';
 
+/* SECTION IMAGES LINE */
 @import 'blocks/images-line/imagtes-line.css';
 @import 'blocks/images-line/__item/images-line__item.css';
 
+/* SECTION SIZES */
 @import 'blocks/sizes/sizes.css';
 @import 'blocks/sizes/__table-container/sizes__table-container.css';
 
-
+/* TABLE STYLES */
 @import 'blocks/table/table.css';
 @import 'blocks/table/__cell/table__cell.css';
 @import 'blocks/table/__cell/_type/table__cell_type.css';
@@ -54,12 +60,14 @@
 @import 'blocks/table/__cell/_td/table__cell_td.css';
 @import 'blocks/table/_striped/table_striped.css';
 
+/* SECTION CATALOG */
 @import 'blocks/catalog/catalog.css';
 @import 'blocks/catalog//__filter-buttons/catalog__filter-buttons.css';
 @import 'blocks/catalog/__filter-btn/catalog__filter-btn.css';
 @import 'blocks/catalog/__items/catalog__items.css';
 @import 'blocks/catalog/__filter-item/catalog__filter-item.css';
 
+/* SECTION PRODUCT */
 @import 'blocks/product/product.css';
 @import 'blocks/product/__image/product__image.css';
 @import 'blocks/product/__description/product__description.css';
@@ -72,6 +80,7 @@
 @import 'blocks/product/__discount/product__discount.css';
 @import 'blocks/product/_none-border/product_none-border.css';
  
+/* CONTROLS */
 @import 'blocks/control/control.css';
 @import 'blocks/control/_type/control_type-color.css';
 @import 'blocks/control/__input/control__input.css';
@@ -82,6 +91,7 @@
 @import 'blocks/control/__label/_type/control__label_type-size.css';
 @import 'blocks/control/_disabled/control_disabled-size.css';
 
+/* SECTION STEPS */
 @import 'blocks/steps/steps.css';
 @import 'blocks/steps/__item/steps__item.css';
 @import 'blocks/steps/__container/steps__container.css';
@@ -89,6 +99,7 @@
 @import 'blocks/steps/__wrap-icon/steps__wrap-icon.css';
 @import 'blocks/steps/__description/steps__description.css';
 
+/* MODAL */
 @import 'blocks/modal/modal.css';
 @import 'blocks/modal/__container/modal__container.css';
 @import 'blocks/modal/__wrap-img/modal__wrap-img.css';
@@ -96,8 +107,7 @@
 @import 'blocks/modal/__title/modal__title.css';
 @import 'blocks/modal/__container-content/modal__container-content.css';
 
-
+/* FORM */
 @import 'blocks/form/__group/form__group.css';
 @import 'blocks/form/__control/form__control.css';
 @import 'blocks/form/__btn/form__btn.css';
-/* @import 'blocks/form/'; */
