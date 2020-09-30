@@ -2,3 +2,9 @@
     background-color: #f7f2f4;
     padding: 80px 0 120px;
 }
+
+@media(max-width:640px) {
+    .steps {
+        padding: 40px 0 60px;
+    }
+}

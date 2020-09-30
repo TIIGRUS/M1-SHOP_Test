@@ -11,3 +11,20 @@
     left: auto;
     right: 0;
 }
+
+@media(max-width: 640px) {
+    .steps__item {
+        grid-column: span 2;
+    }
+
+     .steps__item:first-of-type .steps__description:after,
+     .steps__item:last-of-type .steps__description:after {
+         width: 100%;
+     }
+}
+
+@media(max-width: 375px) {
+    .steps__item {
+        grid-column: span 4;
+    }
+}
