@@ -2,3 +2,9 @@
     padding-top: 50px;
     padding-bottom: 90px;
 }
+
+@media(max-width: 640px) {
+    .catalog {
+        padding-bottom: 50px;
+    }
+}
