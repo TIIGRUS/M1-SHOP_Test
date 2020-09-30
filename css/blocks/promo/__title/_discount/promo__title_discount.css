@@ -5,3 +5,9 @@
     text-transform: uppercase;
     margin: 0 0 14px;
 }
+
+@media(max-width: 640px) {
+    .promo__title_discount {
+        font-size: 18px;
+    }
+}

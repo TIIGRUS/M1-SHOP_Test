@@ -4,3 +4,9 @@
     font-weight: 300;
     margin: 0 0 13px;
 }
+
+@media(max-width: 640px) {
+    .promo__title_category {
+        font-size: 24px;
+    }
+}

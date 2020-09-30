@@ -1,4 +1,10 @@
 .promo__container-text {
-    width: calc(100% - 465px);
     margin: 0 auto
 }
+
+@media(max-width: 960px) {
+    .product__container-text {
+        width: calc(100% - 465px);
+    }
+}
+    

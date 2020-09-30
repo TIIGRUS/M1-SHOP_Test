@@ -1,4 +1,18 @@
 .promo__container_bg {
     background: url("/img/girl_left.png") left bottom no-repeat,
-    url("/img/girl_right.png") right top no-repeat
+    url("/img/girl_right.png") right bottom no-repeat
+}
+
+@media(max-width: 960px) {
+    .promo__container_bg {
+        background-position: calc(22vw - 225px) bottom,
+        calc(100vw - 170px) bottom;
+    }
+}
+
+@media(max-width: 640px) {
+    .promo__container_bg {
+        background-position: calc(22vw - 270px) bottom,
+        calc(67vw + 55px) bottom;
+    }
 }
