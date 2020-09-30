@@ -1,6 +1,6 @@
 .promo__container_bg {
-    background: url("img/girl_left.png") left bottom no-repeat,
-    url("img/girl_right.png") right bottom no-repeat
+    background: url("../../../img/girl_left.png") left bottom no-repeat,
+    url("../../../img/girl_right.png") right bottom no-repeat
 }
 
 @media(max-width: 960px) {
