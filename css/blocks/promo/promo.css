@@ -1,5 +1,5 @@
 .promo {
-    background: center/cover url('/img/bg__promo.png') #030102;
+    background: center/cover url('img/bg__promo.png') #030102;
     min-height: 590px;
     display: flex;
     align-items: stretch;
