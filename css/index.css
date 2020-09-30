@@ -18,6 +18,7 @@
 @import 'blocks/header/__logo-img/header__logo-img.css';
 
 /* NAV MENU */
+@import 'blocks/nav/nav.css';
 @import 'blocks/nav/__list/nav__list.css';
 @import 'blocks/nav/__item-link/nav__item-link.css';
 
