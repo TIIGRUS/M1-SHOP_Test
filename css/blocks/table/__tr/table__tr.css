@@ -1,0 +1,7 @@
+@media(max-width: 640px) {
+    .table__tr {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}

@@ -2,4 +2,20 @@
     font-weight: 700;
     padding: 13px 30px;
     vertical-align: middle;
+    max-width: 100%;
+}
+
+@media(max-width: 960px) {
+    .table__cell {
+        padding: 12px;
+    }
+}
+
+@media(max-width: 640px) {
+    .table__cell {
+        display: inline-block;
+        flex-basis: calc(100% / 8);
+        padding: 10px 5px;
+        font-size: 13px;
+    }
 }
