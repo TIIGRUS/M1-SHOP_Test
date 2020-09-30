@@ -2,3 +2,11 @@
     width: 100%;
     outline: none;
 }
+
+@media(max-width: 640px) {
+    .catalog__filter-btn {
+        min-width: auto;
+        white-space: normal;
+        font-size: 15px;
+    }
+}
