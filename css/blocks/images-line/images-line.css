@@ -1,0 +1,15 @@
+.images-line {
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+}
+
+@media (max-width: 960px) {
+    .images-line {
+        grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    }
+}
+@media (max-width: 640px) {
+    .images-line {
+        grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+    }
+}
