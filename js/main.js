@@ -34,7 +34,7 @@
     $("#speed").selectmenu();
 
     // smooth scrolling 
-    $('a').on('click', function (event) {
+    $('.scroll-to').on('click', function (event) {
       if (this.hash !== '') {
         event.preventDefault();
 
