@@ -15,6 +15,7 @@
 	outline: 0;
 	background: #fff;
 	z-index: 99;
+	max-width: 100%;
 }
 
 .ui-dialog .ui-dialog-titlebar {
@@ -151,4 +152,10 @@
 	position: fixed;
 	left: 0;
 	top: 0;
+}
+
+@media(max-width: 640px) {
+	.ui-dialog .ui-dialog-titlebar-close {
+		color: #fff;
+	}
 }
